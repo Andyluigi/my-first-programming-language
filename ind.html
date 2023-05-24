@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abc</title>
+</head>
+<body>
+    
+    <textarea name="" id="ta1" cols="30" rows="10"></textarea>
+    <textarea name="" id="ta2" cols="30" rows="10"></textarea>
+    <textarea name="" id="ta3" cols="30" rows="10"></textarea>
+<script>
+    function loadTextArea(id){
+      document.getElementById(id).value = localStorage.getItem(id)
+    }
+
+    function load(){
+      loadTextArea('ta1')
+    }
+
+    function saveTextArea(id) {
+      localStorage.setItem(id, document.getElementById(id).value)  
+    }
+
+    function save() {
+      saveTextArea('ta1')
+      saveTextArea('ta2')
+    }
+    
+    
+    
+    function urron() {
+        return (gameen, textarea)
+    }
+    function gameen() {
+      return Text (id (ta1, ta2, ta3))
+    }
+    function urron() {
+        return (gameen, textarea)
+    }
+    function gameen() {
+      return Text(id (4545))
+    }
+    function urron() {
+        return (gameen, textarea)
+    }
+    function gameen() {
+      return Text (id (7674))
+    }
+</script>
+<div><button onclick="save()">save</button></div>
+<div><button onclick="load()">load</button></div>
+</body>
+</html>
